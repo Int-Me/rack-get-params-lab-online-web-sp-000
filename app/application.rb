@@ -25,7 +25,7 @@ class Application
       item = req.params["item"]
       if 	@@items.include?(item)
         @@cart << item
-        
+
 
       end
 
